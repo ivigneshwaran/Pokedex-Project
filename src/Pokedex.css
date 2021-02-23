@@ -1,5 +1,27 @@
+.Pokedex {
+  text-align: center;
+}
+
 .Pokedex-cards {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.Winner {
+  color: white;
+  background-color: green;
+}
+
+.Loser {
+  color: white;
+  background-color: red;
+}
+
+.Pokedex-winner {
+  color: #4caf50; 
+}
+
+.Pokedex-loser {
+  color: #e91e63;
 }
